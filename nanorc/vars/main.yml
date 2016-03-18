@@ -1,0 +1,3 @@
+---
+# The path to install the .nanorc file to
+nanorc_rc_file_path: ~/.nanorc
