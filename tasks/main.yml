@@ -1,9 +1,11 @@
 ---
 - name: Install nano
   yum: name=nano state=present
+  sudo: yes
 
 - name: Install git
   yum: name=git state=present
+  sudo: yes
 
 - name: Download nanorc from Github
   git: repo=https://github.com/nanorc/nanorc dest=~/nanorc
